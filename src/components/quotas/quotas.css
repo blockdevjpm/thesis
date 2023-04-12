@@ -1,0 +1,17 @@
+.quotas {
+    width: 40%;
+    padding: 20px 40px 10px 40px;
+    background: #fff;
+    box-shadow: 0 15px 25px rgba(0,0,0,.3);
+    border-radius: 10px;
+}
+
+.props-name {
+    font-weight: 800;
+    font-size: 25px;
+    color: #356e08;
+}
+
+.slider {
+    background: #356e08;
+}

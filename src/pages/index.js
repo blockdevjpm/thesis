@@ -1,0 +1,9 @@
+export {default as Home} from "./home/Home";
+export {default as Services} from "./services/Services";
+export {default as Learn} from "./learn/Learn";
+export {default as About} from "./about/About";
+export {default as Contact} from "./contact/Contact";
+export {default as Login} from "./login/Login";
+export {default as Rw} from "./rw/Rw";
+export {default as Rfq} from "./rfq/Rfq";
+export {default as Layout} from "./Layout";

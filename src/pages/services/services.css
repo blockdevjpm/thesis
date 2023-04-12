@@ -1,0 +1,40 @@
+.ser 
+{
+    height: 100%;
+    padding-top: 200px;
+    padding-left: 300px;
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(180deg, #FFFF28 0%, #A9F051 50%, #659629 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(180deg, #FFFF28 0%, #A9F051 50%, #659629 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(180deg, #FFFF28 0%, #A9F051 50%, #659629 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#659629', endColorstr='#FFFF28', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(180deg, #FFFF28 0%, #A9F051 50%, #659629 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(180deg, #FFFF28 0%, #A9F051 50%, #659629 100%);
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.ser-h1 {
+    background-color: #FFFF28;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #356e08;
+    font-size: 50px;
+    font-weight: 700;
+}

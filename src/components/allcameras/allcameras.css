@@ -1,0 +1,47 @@
+.camera-access {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.button1 {
+    max-width: 50%;
+    background-color: #76C33A;
+    color: #fff;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid #76C33A;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.button2 {
+    max-width: 50%;
+    background-color: #fff;
+    color: #76C33A;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid #76C33A;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.button1:hover {
+    background-color: #fff;
+    color: #76C33A;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #76C33A;
+    color: #fff;
+    cursor: pointer;
+}
